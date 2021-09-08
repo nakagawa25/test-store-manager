@@ -1,0 +1,14 @@
+﻿<Window x:Class="T4LSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T4LSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="280.273" Width="382.382">
+    <Grid Margin="0,0,0,1">
+        <Button Name="btnStartSystem" Content="Começar" HorizontalAlignment="Left" Margin="113,155,0,0" VerticalAlignment="Top" Width="149" Height="36" Click="BtnStartSystem_Click"/>
+        <Label Content="Tela apenas para teste do sistema, antes de iniciar, leia o readme" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Height="42" Width="354"/>
+
+    </Grid>
+</Window>
